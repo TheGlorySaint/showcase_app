@@ -1,7 +1,7 @@
 import 'package:injectable/injectable.dart';
 
 import '../../../../core/domain/remote_data_source.dart';
-import '../../../../core/error/failures.dart';
+import '../../../../core/error/barrel_error.dart';
 import '../../../../util/barrel_util.dart';
 import '../../domain/repositories/prime_repository.dart';
 
