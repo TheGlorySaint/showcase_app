@@ -145,3 +145,15 @@ Why this approach?
 - No mutex or cancellation mechanism used for ongoing network requests.
 
   - Could be improved with `CancelableOperation` or a custom `isFetching` flag.
+
+# Future Features (Planned for Showcase)
+
+Some of these require the latest stable Dart/Flutter versions to be available:
+
+- [ ] `Null-Aware Elements` — Cleaner and more concise collection initialization.
+
+- [ ] `Dot Shorthands` — Simplified property access and method calls within cascade or builder patterns.
+
+- [ ] `Widget Preview` — Live preview support for individual widgets during development for faster UI iteration.
+
+These will be integrated into the showcase to highlight the benefits of modern Dart language features and tooling as they become stable.
