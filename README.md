@@ -145,7 +145,3 @@ Why this approach?
 - No mutex or cancellation mechanism used for ongoing network requests.
 
   - Could be improved with `CancelableOperation` or a custom `isFetching` flag.
-
-```
-
-```
