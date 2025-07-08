@@ -96,4 +96,12 @@ class PrimeCubit extends Cubit<PrimeState> {
     _timer?.cancel();
     return super.close();
   }
+
+  @visibleForTesting
+  Future<void> fetchNumberForTest() => _fetchNumber();
+
+  @visibleForTesting
+  Future<void> initializeForTest() async {
+    await _loadLastPrime();
+  }
 }
