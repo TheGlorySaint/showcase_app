@@ -14,7 +14,7 @@ void main() {
   late SharedPreferences prefs;
 
   setUpAll(() {
-    registerFallbackValue(<int>[]); // if needed for stubbing
+    registerFallbackValue(<int>[]);
   });
 
   setUp(() async {
